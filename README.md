@@ -1,6 +1,3 @@
-# epic education
-most of this will be python
-all of this wil be classwork
-100% authentic
-1000% not clickbait
-10000% me
+# edu.mrtin.co
+
+whatever i code in lesson or as homework for my computer science a-level will be stored here.
