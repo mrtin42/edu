@@ -8,5 +8,3 @@ def __init__(self,
     self.nationality = nationality
     self.gender = gender
 
-
-    
