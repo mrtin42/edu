@@ -6,4 +6,4 @@ def stateCalc(temp):
     elif temp < 0:
         return "Solid"
     
-print(f"Current state of water: {stateCalc(float(input('Enter the temperature of the water: ')))}")
+print(f"Current state of water: {stateCalc(float(input('Enter the temperature of the water: ')))}")1
