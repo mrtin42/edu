@@ -13,7 +13,7 @@ class Human():
         print(f'Hi! My name is {self.name}.')
 
 
-bob = Human()
+bob = Human("bob",17,"british","male")
 
 print(bob.name)
 
