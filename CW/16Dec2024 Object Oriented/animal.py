@@ -29,12 +29,11 @@ class Animal():
         elif self.hunger_level > 7:
             self.threat_level = "aggresive"
 
-hyena = Animal()
-hyena.setSpecies("hyena")
-hyena.setAge(3)
-hyena.setHungerLevel(3)
-hyena.setThreatLevel()
+    def setEverything(self):
+        self.setSpecies(input("What species is the animal?"))
+        self.setAge(int(input("How old is the animal?")))
+        self.setHungerLevel(int(input("What is the hunger level of the animal?")))
+        self.setThreatLevel()
 
-print(f"This hyena is feeling {hyena.threat_level}")
-print(f"Hunger level: {hyena.hunger_level}")
-print(f"Age: {hyena.age}")
+tiger = Animal()
+tiger.setEverything()

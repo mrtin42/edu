@@ -1,0 +1,21 @@
+h1 {
+  color: #00ffff;
+}
+
+h2 {
+  border: 2px solid rgb(207, 15, 207);
+}
+
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  font-family: monospace;
+  color:aqua
+}
+
+a:hover {
+  color:#1cc7c7;
+  text-decoration: none;
+}
